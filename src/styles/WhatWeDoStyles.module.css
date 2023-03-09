@@ -1,0 +1,531 @@
+.container {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+@media (min-width: 1025px) {
+  .container .intro {
+    background-color: #222326;
+    display: flex;
+    justify-content: center;
+    padding-top: 200px;
+    padding-bottom: 150px;
+  }
+  
+  .container .innerIntro {
+    width: 1000px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: white;
+    text-align: center;
+  }
+  
+  .container .intro .text {
+    font-size: 18px;
+    font-weight: 700;
+    /* margin-top: 20px; */
+    width: 250px;
+    line-height: 30px;
+  }
+  
+  .container .intro .header {
+    font-size: 72px;
+    font-weight: 700;
+    margin-top: 30px;
+    width: 800px;
+  }
+  
+  
+  
+  .firstComponent {
+    display: flex;
+    justify-content: center;
+    padding: 100px 0;
+  }
+  
+  .innerFirstComponent {
+    width: 1200px;
+    font-weight: 400;
+    font-size: 18px;
+    color: rgba(96,96,99,1.0);
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    text-align: start;
+  }
+  
+  .innerFirstComponent > * {
+  }
+  
+  .innerFirstComponent .image {
+    margin-top: 150px;
+  }
+  
+  .innerFirstComponent .header {
+    margin-top: 50px;
+    font-size: 52px;
+    font-weight: 700;
+    width: 600px;
+    color: black;
+  }
+  
+  .innerFirstComponent .text {
+    width: 100%;
+    font-size: 20px;
+    margin-top: 20px;
+    line-height: 35px;
+  }
+  
+  .innerFirstComponent .iconGroup {
+    margin-top: 100px;
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+  
+  .innerFirstComponent .iconGroup > div {
+    display: flex;
+    flex-direction: column;
+    width: 350px;
+    text-align: center;
+    gap: 30px;
+    align-items: center;
+  }
+  
+  
+  .firstComponent .iconGroup .title {
+    font-size: 32px;
+    font-weight: 700;
+  }
+  
+  .firstComponent .iconGroup .text {
+  }
+  
+  .container .secondComponent {
+    background-color: #222326;
+    display: flex;
+    justify-content: center;
+    padding-top: 200px;
+    padding-bottom: 150px;
+  }
+  
+  .container .innerSecondComponent {
+    width: 1200px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: white;
+    text-align: center;
+  }
+  
+  .container .secondComponent .header {
+    font-size: 52px;
+    font-weight: 700;
+    margin-top: 30px;
+  }
+  
+  .outerMenu {
+    width: 100%;
+    background-color: #f7f6f8;
+    display: flex;
+    justify-content: center;
+  }
+  
+  .menu {
+    width: 1200px;
+    display: flex;
+    font-size: 23px;
+    justify-content: space-between;
+    padding: 30px 0;
+  }
+  
+  .menu > div {
+    transition: all 100ms ease-in-out;
+    cursor: pointer;
+  }
+  
+  .menu > div:hover {
+    transform: scale(1.2);
+  }
+  
+  .outerFirstWork {
+    display: flex;
+    justify-content: center;
+    padding-top: 50px;
+    padding-bottom: 100px;
+    
+  }
+  
+  .outerFirstWork .header {
+    font-size: 40px;
+    font-weight: 700;
+    text-align: center;
+  }
+  
+  .firstWork {
+    width: 1000px;
+  }
+  
+  .outerFirstWork .lower {
+    display: flex;
+    align-items: center;
+    margin-top: 70px;
+    height: fit-content;
+    gap: 70px;
+  }
+  
+  .outerFirstWork .lower .image {
+    height: 300px;
+    width: 350px;
+    border-radius: 15px;
+  }
+  
+  .outerFirstWork .lower .text {
+    font-size: 22px;
+  }
+}
+
+@media (max-width: 1024px) and (min-width: 800px) {
+  .container .intro {
+    background-color: #222326;
+    display: flex;
+    justify-content: center;
+    padding-top: 200px;
+    padding-bottom: 150px;
+  }
+  
+  .container .innerIntro {
+    width: 700px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: white;
+    text-align: center;
+  }
+  
+  .container .intro .text {
+    font-size: 18px;
+    font-weight: 700;
+    /* margin-top: 20px; */
+    width: 250px;
+    line-height: 30px;
+  }
+  
+  .container .intro .header {
+    font-size: 72px;
+    font-weight: 700;
+    margin-top: 30px;
+    width: 800px;
+  }
+  
+  .firstComponent {
+    display: flex;
+    justify-content: center;
+    padding: 100px 0;
+  }
+  
+  .innerFirstComponent {
+    width: 700px;
+    font-weight: 400;
+    font-size: 18px;
+    color: rgba(96,96,99,1.0);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+
+  }
+  
+  .innerFirstComponent > * {
+  }
+  
+  .innerFirstComponent .image {
+    margin-top: 150px;
+  }
+  
+  .innerFirstComponent .header {
+    margin-top: 50px;
+    font-size: 52px;
+    font-weight: 700;
+    width: 600px;
+    color: black;
+  }
+  
+  .innerFirstComponent .text {
+    width: 100%;
+    font-size: 20px;
+    margin-top: 20px;
+    line-height: 35px;
+  }
+  
+  .innerFirstComponent .iconGroup {
+    margin-top: 100px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 150px;
+    align-items: center;
+  }
+  
+  .innerFirstComponent .iconGroup > div {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    gap: 30px;
+    align-items: center;
+  }
+  
+  
+  .firstComponent .iconGroup .title {
+    font-size: 32px;
+    font-weight: 700;
+  }
+  
+  .container .secondComponent {
+    background-color: #222326;
+    display: flex;
+    justify-content: center;
+    padding: 100px 0;
+  }
+  
+  .container .innerSecondComponent {
+    width: 700px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: white;
+    text-align: center;
+  }
+  
+  .container .secondComponent .header {
+    font-size: 42px;
+    font-weight: 700;
+  }
+
+  .outerMenu {
+    width: 100%;
+    background-color: #f7f6f8;
+    display: flex;
+    justify-content: center;
+  }
+  
+  .menu {
+    display: none;
+  }
+
+  .outerFirstWork {
+    display: flex;
+    justify-content: center;
+    padding-top: 50px;
+    padding-bottom: 100px;
+    
+  }
+  
+  .outerFirstWork .header {
+    font-size: 40px;
+    font-weight: 700;
+    text-align: center;
+  }
+  
+  .firstWork {
+    width: 700px;
+    text-align: center;
+  }
+  
+  .outerFirstWork .lower {
+    display: flex;
+    align-items: center;
+    margin-top: 70px;
+    flex-direction: column;
+    height: fit-content;
+    gap: 70px;
+  }
+  
+  .outerFirstWork .lower .image {
+    height: 300px;
+    width: 350px;
+    border-radius: 15px;
+  }
+  
+  .outerFirstWork .lower .text {
+    font-size: 22px;
+    width: 600px;
+  }
+}
+
+@media (max-width: 799px) {
+
+  
+  .container .intro {
+    background-color: #222326;
+    display: flex;
+    justify-content: center;
+    padding-top: 200px;
+    padding-bottom: 150px;
+  }
+  
+  .container .innerIntro {
+    width: calc(100% - 50px);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: white;
+    text-align: center;
+  }
+  
+  .container .intro .text {
+    font-size: 18px;
+    font-weight: 700;
+    /* margin-top: 20px; */
+    width: 250px;
+    line-height: 30px;
+  }
+  
+  .container .intro .header {
+    font-size: 42px;
+    font-weight: 700;
+    margin-top: 30px;
+    width: 330px;
+  }
+
+  
+  .firstComponent {
+    display: flex;
+    justify-content: center;
+    padding: 100px 0;
+  }
+  
+  .innerFirstComponent {
+    width: calc(100% - 50px);
+
+    font-weight: 400;
+    font-size: 18px;
+    color: rgba(96,96,99,1.0);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+
+  }
+  
+  .innerFirstComponent > * {
+  }
+  
+  .innerFirstComponent .image {
+    margin-top: 150px;
+  }
+  
+  .innerFirstComponent .header {
+    margin-top: 50px;
+    font-size: 37px;
+    font-weight: 700;
+    width: 330px;
+    color: black;
+  }
+  
+  .innerFirstComponent .text {
+    width: 100%;
+    font-size: 20px;
+    margin-top: 20px;
+    line-height: 35px;
+  }
+  
+  .innerFirstComponent .iconGroup {
+    margin-top: 100px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 150px;
+    align-items: center;
+  }
+  
+  .innerFirstComponent .iconGroup > div {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    gap: 20px;
+    align-items: center;
+  }
+  
+  
+  .firstComponent .iconGroup .title {
+    font-size: 32px;
+    font-weight: 700;
+    margin-top: 20px;
+  }
+
+  .container .secondComponent {
+    background-color: #222326;
+    display: flex;
+    justify-content: center;
+    padding: 50px 0;
+  }
+  
+  .container .innerSecondComponent {
+    width: calc(100% - 50px);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: white;
+    text-align: center;
+  }
+  
+  .container .secondComponent .header {
+    font-size: 25px;
+    font-weight: 700;
+    line-height: 40px;
+  }
+
+  .outerMenu {
+    width: 100%;
+    background-color: #f7f6f8;
+    display: flex;
+    justify-content: center;
+  }
+  
+  .menu {
+    display: none;
+  }
+
+  .outerFirstWork {
+    display: flex;
+    justify-content: center;
+    padding-top: 50px;
+    padding-bottom: 100px;
+    
+  }
+  
+  .outerFirstWork .header {
+    font-size: 40px;
+    font-weight: 700;
+    text-align: center;
+  }
+  
+  .firstWork {
+    width: calc(100% - 50px);
+    text-align: center;
+  }
+  
+  .outerFirstWork .lower {
+    display: flex;
+    align-items: center;
+    margin-top: 70px;
+    flex-direction: column;
+    height: fit-content;
+    gap: 70px;
+  }
+  
+  .outerFirstWork .lower .image {
+    height: 300px;
+    width: 350px;
+    border-radius: 15px;
+  }
+  
+  .outerFirstWork .lower .text {
+    font-size: 20px;
+    line-height: 40px;
+    width: 330px;
+  }
+}

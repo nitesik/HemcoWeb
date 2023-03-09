@@ -1,0 +1,497 @@
+.container {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+@media (min-width: 1025px) {
+  .container .intro {
+    background-color: #222326;
+    display: flex;
+    justify-content: center;
+    padding-top: 200px;
+    padding-bottom: 150px;
+  }
+  
+  .container .innerIntro {
+    width: 1000px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: white;
+    text-align: center;
+  }
+  
+  .container .intro .text {
+    font-size: 18px;
+    font-weight: 700;
+    /* margin-top: 20px; */
+    width: 250px;
+    line-height: 30px;
+  }
+  
+  .container .intro .header {
+    font-size: 62px;
+    font-weight: 700;
+    margin-top: 30px;
+    width: 700px;
+  }
+  
+  .firstComponent {
+    display: flex;
+    justify-content: center;
+    padding-top: 80px;
+  }
+  
+  .innerFirstComponent {
+    width: 1200px;
+    font-weight: 400;
+    font-size: 18px;
+    color: rgba(96,96,99,1.0);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: start;
+  }
+  
+  .innerFirstComponent .logo {
+    height: 150px;
+    width: 250px;
+    object-fit: cover;
+    margin-bottom: 50px;
+  }
+  
+  .innerFirstComponent > div {
+    line-height: 30px;
+  }
+  
+  .innerFirstComponent .image {
+    margin-top: 150px;
+  }
+  
+  .innerFirstComponent .header {
+    margin: 50px 0;
+    font-size: 42px;
+    font-weight: 700;
+    color: black;
+  }
+  
+  .innerFirstComponent .text {
+    width: 100%;
+    font-size: 20px;
+  }
+  
+  .secondComponent {
+    background-color: #4e3092;
+    min-height: 300px;
+    margin-top: 100px;
+    display: flex;
+    justify-content: center;
+    padding: 100px 0;
+    color: white;
+  }
+  
+  .innerSecondComponent {
+    width: 1200px;
+  }
+  
+  .secondComponent .header {
+    font-size: 35px;
+    font-weight: 700;
+  }
+  
+  .secondComponent ol {
+    margin-top: 50px;
+    font-size: 20px;
+    display: grid;
+    gap: 30px;
+  }
+  
+  .secondComponent .text {
+    font-size: 25px;
+    margin-top: 40px;
+  }
+  
+  .thirdComponent {
+    min-height: 300px;
+    display: flex;
+    justify-content: center;
+    padding: 100px 0;
+  }
+  
+  .innerThirdComponent {
+    width: 1200px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: start;
+  }
+  
+  .innerThirdComponent .header {
+    font-size: 45px;
+    font-weight: 700;
+    margin-bottom: 50px;
+  }
+  
+  .innerThirdComponent .text {
+    margin: 10px;
+    font-size: 20px;
+    line-height: 35px;
+  }
+  
+  .innerThirdComponent .iconGroup {
+    margin-top: 100px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .innerThirdComponent .iconGroup > div {
+    display: flex;
+    flex-direction: column;
+    width: 350px;
+    text-align: center;
+    gap: 30px;
+    align-items: center;
+  }
+  
+  
+  .thirdComponent .iconGroup .title {
+    font-size: 32px;
+    font-weight: 700;
+  }
+}
+
+@media (max-width: 1024px) and (min-width: 800px) {
+  .container .intro {
+    background-color: #222326;
+    display: flex;
+    justify-content: center;
+    padding-top: 200px;
+    padding-bottom: 150px;
+  }
+  
+  .container .innerIntro {
+    width: 700px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: white;
+    text-align: center;
+  }
+  
+  .container .intro .text {
+    font-size: 18px;
+    font-weight: 700;
+    /* margin-top: 20px; */
+    width: 250px;
+    line-height: 30px;
+  }
+  
+  .container .intro .header {
+    font-size: 62px;
+    font-weight: 700;
+    margin-top: 30px;
+    width: 700px;
+  }
+
+  .firstComponent {
+    display: flex;
+    justify-content: center;
+    padding-top: 80px;
+  }
+  
+  .innerFirstComponent {
+    width: 700px;
+    font-weight: 400;
+    font-size: 18px;
+    color: rgba(96,96,99,1.0);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+  
+  .innerFirstComponent .logo {
+    height: 150px;
+    width: 250px;
+    object-fit: cover;
+    margin-bottom: 50px;
+  }
+  
+  .innerFirstComponent > div {
+    line-height: 30px;
+  }
+  
+  .innerFirstComponent .image {
+    margin-top: 150px;
+  }
+  
+  .innerFirstComponent .header {
+    margin: 50px 0;
+    font-size: 42px;
+    font-weight: 700;
+    color: black;
+  }
+  
+  .innerFirstComponent .text {
+    width: 100%;
+    font-size: 20px;
+  }
+
+  .secondComponent {
+    background-color: #4e3092;
+    min-height: 300px;
+    margin-top: 100px;
+    display: flex;
+    justify-content: center;
+    padding: 100px 0;
+    color: white;
+  }
+
+  .secondComponent ol {
+    text-align: start;
+  }
+  
+  .innerSecondComponent {
+    width: 700px;
+    text-align: center;
+  }
+  
+  
+  .secondComponent .header {
+    font-size: 35px;
+    font-weight: 700;
+  }
+  
+  .secondComponent ol {
+    margin-top: 50px;
+    font-size: 20px;
+    display: grid;
+    gap: 30px;
+  }
+  
+  .secondComponent .text {
+    font-size: 25px;
+    margin-top: 40px;
+  }
+
+  .thirdComponent {
+    min-height: 300px;
+    display: flex;
+    justify-content: center;
+    padding: 100px 0;
+  }
+  
+  .innerThirdComponent {
+    width: 700px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: start;
+  }
+  
+  .innerThirdComponent .header {
+    font-size: 45px;
+    font-weight: 700;
+    margin-bottom: 50px;
+  }
+  
+  .innerThirdComponent .text {
+    margin: 10px;
+    font-size: 20px;
+    line-height: 35px;
+  }
+  
+  .innerThirdComponent .iconGroup {
+    margin-top: 50px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    align-items: center;
+    gap: 80px;
+  }
+  
+  .innerThirdComponent .iconGroup > div {
+    display: flex;
+    flex-direction: column;
+    width: 350px;
+    text-align: center;
+    gap: 30px;
+    align-items: center;
+  }
+  
+  
+  .thirdComponent .iconGroup .title {
+    font-size: 32px;
+    font-weight: 700;
+  }
+}
+
+@media (max-width: 800px) {
+  .container .intro {
+    background-color: #222326;
+    display: flex;
+    justify-content: center;
+    padding-top: 150px;
+    padding-bottom: 100px;
+  }
+  
+  .container .innerIntro {
+    width: 330px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: white;
+    text-align: center;
+  }
+  
+  .container .intro .text {
+    font-size: 18px;
+    font-weight: 700;
+    /* margin-top: 20px; */
+    width: 250px;
+    line-height: 30px;
+  }
+  
+  .container .intro .header {
+    font-size: 37px;
+    font-weight: 700;
+    margin-top: 30px;
+    width: 330px;
+  }
+
+  .firstComponent {
+    display: flex;
+    justify-content: center;
+    padding-top: 80px;
+  }
+  
+  .innerFirstComponent {
+    width: 330px;
+    font-weight: 400;
+    /* font-size: 13px; */
+    color: rgba(96,96,99,1.0);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+  
+  .innerFirstComponent .logo {
+    height: 150px;
+    width: 250px;
+    object-fit: cover;
+  }
+  
+  .innerFirstComponent > div {
+    line-height: 30px;
+  }
+  
+  .innerFirstComponent .image {
+    margin-top: 150px;
+  }
+  
+  .innerFirstComponent .header {
+    margin: 25px 0;
+    font-size: 37px;
+    line-height: 50px;
+
+    font-weight: 700;
+    color: black;
+  }
+  
+  .innerFirstComponent .text {
+    width: 100%;
+    font-size: 15px;
+  }
+
+  .secondComponent {
+    background-color: #4e3092;
+    min-height: 300px;
+    margin-top: 100px;
+    display: flex;
+    justify-content: center;
+    padding: 100px 0;
+    color: white;
+  }
+  
+  .secondComponent ol {
+    text-align: start;
+  }
+  
+  .innerSecondComponent {
+    width: calc(100% - 50px);
+    text-align: center;
+  }
+  
+  
+  .secondComponent .header {
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 40px;
+  }
+  
+  .secondComponent ol {
+    margin-top: 50px;
+    font-size: 15px;
+    display: grid;
+    gap: 30px;
+  }
+  
+  .secondComponent .text {
+    font-size: 18px;
+    margin-top: 40px;
+
+  }
+
+  .thirdComponent {
+    display: flex;
+    justify-content: center;
+    padding: 100px 0;
+  }
+  
+  .innerThirdComponent {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: start;
+  }
+  
+  .innerThirdComponent .header {
+    font-size: 45px;
+    font-weight: 700;
+    margin-bottom: 50px;
+  }
+  
+  .innerThirdComponent .text {
+    font-size: 15px;
+    line-height: 35px;
+  }
+  
+  .innerThirdComponent .iconGroup {
+    margin-top: 50px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    align-items: center;
+    gap: 80px;
+  }
+  
+  .innerThirdComponent .iconGroup > div {
+    display: flex;
+    flex-direction: column;
+    width: 350px;
+    text-align: center;
+    gap: 30px;
+    align-items: center;
+  }
+  
+  
+  .thirdComponent .iconGroup .title {
+    font-size: 25px;
+    font-weight: 700;
+  }
+}
