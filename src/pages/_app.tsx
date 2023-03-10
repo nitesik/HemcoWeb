@@ -9,7 +9,7 @@ import Nav from "./Nav";
 const MyApp: AppType = ({ Component, pageProps }) => {
 
   const [scrollY, setScrollY] = useState<number>(0);
-  const [current, setCurrent] = useState("AboutUs");
+  const [current, setCurrent] = useState<string>("AboutUs");
 
   function getScrollY() {
     setScrollY(window.scrollY);

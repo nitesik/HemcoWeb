@@ -7,6 +7,7 @@ import compass from "../Images/compass.png";
 import hassle from "../Images/hassle-free.png";
 import support from "../Images/support.png";
 import Link from "next/link";
+import { any, string, unknown } from "zod";
 
 const Home: NextPage = () => {
   return (

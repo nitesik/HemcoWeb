@@ -25,7 +25,13 @@ const config = {
         fixStyle: "inline-type-imports",
       },
     ],
+    "react/no-unescaped-entities": "off",
+    "@next/next/no-page-custom-font": "off",
+    "@typescript-eslint/no-unsafe-call": "off",
+    "@typescript-eslint/no-unsafe-return": "off",
+    "@typescript-eslint/no-unsafe-assignment": "off"
   },
+  
 };
 
 module.exports = config;

@@ -27,7 +27,13 @@ function MobileNav() {
   )
 }
 
-function Nav({scrollY, current, setCurrent} : any) {
+interface props {
+  scrollY: number,
+  current: string,
+  setCurrent: React.Dispatch<React.SetStateAction<string>>
+}
+
+function Nav({scrollY, current, setCurrent} : props ) {
 
 
   return (
