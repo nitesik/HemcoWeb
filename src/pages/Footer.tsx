@@ -7,6 +7,7 @@ import youtube from "../Images/youtube.png";
 
 function Footer() {
 
+  
   return (
     <div className="footer">
         <div className="innerFooter">

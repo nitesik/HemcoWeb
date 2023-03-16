@@ -42,12 +42,12 @@ function Nav({scrollY, current, setCurrent} : props ) {
       <div className={`${scrollY <= 50 ? "top" : "nav"} desktopNav`}>
         <Link onClick={() => setCurrent("Home")} href={"/"} className="logo">HEMCO</Link>
         <div className="navComponents">
-          <Link className={current === "Home" ? "select" : ""} onClick={() => setCurrent("Home")} href="/">HOME</Link>
-          <Link className={current === "AboutUs" ? "select" : ""} onClick={() => setCurrent("AboutUs")} href="/AboutUs">ABOUT US</Link>
-          <Link className={current === "WhatWeDo" ? "select" : ""} onClick={() => setCurrent("WhatWeDo")} href="/WhatWeDo">WHAT WE DO</Link>
-          <Link className={current === "KeyWorks" ? "select" : ""} onClick={() => setCurrent("KeyWorks")} href={"/KeyWorks"}>Key Works</Link>
+          <Link className={current === "" ? "select" : ""} href="/">HOME</Link>
+          <Link className={current === "AboutUs" ? "select" : ""} href="/AboutUs">ABOUT US</Link>
+          <Link className={current === "WhatWeDo" ? "select" : ""} href="/WhatWeDo">WHAT WE DO</Link>
+          <Link className={current === "KeyWorks" ? "select" : ""} href={"/KeyWorks"}>Key Works</Link>
         </div>
-        <Link href={"/TalkToUs"} className="button" onClick={() => setCurrent("")}>TALK TO US</Link>
+        <Link href={"/TalkToUs"} className="button">TALK TO US</Link>
       </div>
     </div>
   )
