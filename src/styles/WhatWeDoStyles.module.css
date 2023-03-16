@@ -131,6 +131,8 @@
     background-color: #f7f6f8;
     display: flex;
     justify-content: center;
+    position: sticky;
+    top: 100px;
   }
   
   .menu {
@@ -483,6 +485,7 @@
     background-color: #f7f6f8;
     display: flex;
     justify-content: center;
+    
   }
   
   .menu {
