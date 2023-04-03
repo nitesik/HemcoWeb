@@ -23,7 +23,9 @@ const MyApp: AppType = ({ Component, pageProps }) => {
     setCurrent(asPath.slice(1));
   });
   
-  
+  useEffect(() => {
+    document.head.title = "HEMCO" + asPath;
+  }, []);
   
   return (
     <div>
