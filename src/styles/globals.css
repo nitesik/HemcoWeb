@@ -108,7 +108,7 @@ a {
   
   .navComponents {
     display: flex;
-    color: #222326a8;
+    color: black;
     font-weight: 700;
     width: 800px;
     justify-content: space-evenly;
@@ -276,7 +276,7 @@ a {
     justify-content: center;
     background-color: black;
   }
-
+  
   .innerNav-components {
     padding-top: 100px;
     display: flex;
@@ -299,7 +299,9 @@ a {
   
   .innerFooter {
     width: 800px;
-  
+    display: flex;
+    flex-direction: column;
+    align-items: center;
   }
   
   .innerFooter .upper {
@@ -356,6 +358,7 @@ a {
     font-weight: 400;
     font-size: 14px;
     text-align: center;
+    width: 80%;
   }
 }
 

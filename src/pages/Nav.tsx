@@ -45,7 +45,7 @@ function Nav({scrollY, current, setCurrent} : props ) {
           <Link className={current === "" ? "select" : ""} href="/">HOME</Link>
           <Link className={current === "AboutUs" ? "select" : ""} href="/AboutUs">ABOUT US</Link>
           <Link className={current === "WhatWeDo" ? "select" : ""} href="/WhatWeDo">WHAT WE DO</Link>
-          <Link className={current === "KeyWorks" ? "select" : ""} href={"/KeyWorks"}>Key Works</Link>
+          <Link className={current === "KeyWorks" ? "select" : ""} href={"/KeyWorks"}>KEY WORKS</Link>
         </div>
         <Link href={"/TalkToUs"} className="button">TALK TO US</Link>
       </div>

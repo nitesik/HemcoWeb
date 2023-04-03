@@ -1,0 +1,117 @@
+.container {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.container .firstComponent {
+  background-color: #f0eff3;
+  display: flex;
+  justify-content: center;
+  
+  flex: 1;
+}
+
+@media (min-width: 1025px) {
+  .container .firstComponent {
+    padding-top: 150px;
+    padding-bottom: 75px;
+  }
+  
+  .container .innerFirstComponent {
+    width: 1000px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: black;
+    height: 100%;
+    text-align: center;
+  }
+  
+  .container .firstComponent .text {
+    font-size: 18px;
+    font-weight: 700;
+    /* margin-top: 20px; */
+    width: 250px;
+    line-height: 30px;
+  }
+  
+  .container .firstComponent .header {
+    font-size: 52px;
+    font-weight: 700;
+    margin: 50px 0;
+    width: 700px;
+  }
+  
+  .container .firstComponent .table {
+    width: 100%;
+  }
+}
+
+@media (max-width: 1024px) {
+  .container .firstComponent {
+    padding: 100px 0;
+  }
+}
+
+@media (min-width: 800px) and (max-width: 1024px) {
+  .container .innerFirstComponent {
+    width: 800px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: black;
+    height: 100%;
+    text-align: center;
+  }
+  
+  .container .firstComponent .text {
+    font-size: 18px;
+    font-weight: 700;
+    /* margin-top: 20px; */
+    width: 250px;
+    line-height: 30px;
+  }
+  
+  .container .firstComponent .header {
+    font-size: 52px;
+    font-weight: 700;
+    margin: 50px 0;
+    width: 700px;
+  }
+  
+  .container .firstComponent .table {
+    width: 100%;
+  }
+}
+
+@media (max-width: 799px) {
+  .container .innerFirstComponent {
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: black;
+    height: 100%;
+    text-align: center;
+  }
+  
+  .container .firstComponent .text {
+    font-size: 18px;
+    font-weight: 700;
+    /* margin-top: 20px; */
+    width: 250px;
+    line-height: 30px;
+  }
+  
+  .container .firstComponent .header {
+    font-size: 32px;
+    font-weight: 700;
+    margin: 50px 0;
+    width: 350px;
+  }
+  
+  .container .firstComponent .table {
+    width: 100%;
+  }
+}
