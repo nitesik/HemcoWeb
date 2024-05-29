@@ -134,7 +134,7 @@ function KeyWorks() {
             <Paper sx={{ width: '100%', overflow: 'hidden' }}>
               <TableContainer sx={{ maxHeight: "100%", width: "100%", verticalAlign: 'top' }}>
                 <Table stickyHeader aria-label="sticky table">
-                  <TableHead sx={{  }}>
+                  <TableHead sx={{ position: "sticky", top: "0" }}>
                     <TableRow>
                       {columns.map((column) => (
                         <TableCell
