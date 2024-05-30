@@ -66,7 +66,7 @@ function MobileNav() {
               href="/Employees"
               className="text"
             >
-              Employees
+              EMPLOYEES
             </Link>
 
             <Link
