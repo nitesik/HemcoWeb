@@ -84,18 +84,17 @@ function MobileNav() {
 }
 
 interface props {
-  scrollY: number;
+  scrollY: boolean;
   current: string;
   setCurrent: React.Dispatch<React.SetStateAction<string>>;
 }
 
 function Nav({ scrollY, current, setCurrent }: props) {
-  const word = "hello";
 
   return (
     <div>
       <MobileNav />
-      <div className={`${scrollY <= 50 ? "top" : "nav"} desktopNav`}>
+      <div className={`${scrollY ? "top" : "nav"} desktopNav`}>
         <Link onClick={() => setCurrent("Home")} href={"/"} className="logo">
           HEMCO
         </Link>

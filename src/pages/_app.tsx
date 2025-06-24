@@ -9,22 +9,23 @@ import Nav from "./Nav";
 
 const MyApp: AppType = ({ Component, pageProps }) => {
 
-  const [scrollY, setScrollY] = useState<number>(0);
-  const [current, setCurrent] = useState<string>("/");
+  const [scrollY, setScrollY] = useState(false);
+  const [current, setCurrent] = useState("/");
 
   const { asPath } = useRouter();
   
   function getScrollY() {
-    setScrollY(window.scrollY);
+    setScrollY(window.scrollY <= 50);
   }
   
   useEffect(() => {
-    window.addEventListener("scroll", getScrollY);
     setCurrent(asPath.slice(1));
   });
-  
+
   useEffect(() => {
+    window.addEventListener("scroll", getScrollY);
     document.head.title = "HEMCO" + asPath;
+    return () => { window.removeEventListener("scroll", getScrollY); };
   }, []);
   
   return (
