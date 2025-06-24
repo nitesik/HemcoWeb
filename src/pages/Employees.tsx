@@ -10,7 +10,7 @@ export default function Employees() {
         </div>
         <div className={styles.subContainer}>
           <h1>Mr. Mahendra Chhetri</h1>
-          <h3>Civil Engineer</h3>
+          <h3>Managing Director</h3>
         </div>
         <div className={styles.subContainer}>
           <h1>Mr. IR Dulal</h1>
@@ -27,6 +27,10 @@ export default function Employees() {
         <div className={styles.subContainer}>
           <h1>Mr. Dallu Rai</h1>
           <h3>Finance</h3>
+        </div>
+        <div className={styles.subContainer}>
+          <h1>Mr. Sujan Giri</h1>
+          <h3>Assistant Communication Officer</h3>
         </div>
       </div>
     </main>
